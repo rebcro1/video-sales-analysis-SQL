@@ -1,0 +1,11 @@
+Here is a SQL command for creating a new table
+
+CREATE TABLE employees3
+(
+employee_id smallint NOT NULL,
+name vachar(50),
+contact_number varchar(30),
+designation_id int, 
+last_update timestamp NOT NULL DEFAULT now(),
+CONSTRAINT employee_pkey PRIMARY KEY (employee_id)
+);
